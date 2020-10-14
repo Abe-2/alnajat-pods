@@ -348,6 +348,7 @@ PODS:
   - Pageboy (3.6.2)
   - PromisesObjC (1.2.11)
   - Protobuf (3.13.0)
+  - ReverseExtension (0.5.0)
   - SkeletonView (1.10.0)
   - Tabman (2.9.1):
     - Pageboy (~> 3.6.0)
@@ -358,6 +359,7 @@ DEPENDENCIES:
   - Firebase/Core
   - Firebase/Firestore
   - Firebase/Messaging
+  - ReverseExtension (from `https://github.com/MarjanBasiri/ReverseExtension.git`)
   - SkeletonView (= 1.10.0)
   - Tabman
 
@@ -388,6 +390,15 @@ SPEC REPOS:
     - SkeletonView
     - Tabman
 
+EXTERNAL SOURCES:
+  ReverseExtension:
+    :git: https://github.com/MarjanBasiri/ReverseExtension.git
+
+CHECKOUT OPTIONS:
+  ReverseExtension:
+    :commit: abff9ec1a58152410591987600ebbd7f5758208a
+    :git: https://github.com/MarjanBasiri/ReverseExtension.git
+
 SPEC CHECKSUMS:
   abseil: 6c8eb7892aefa08d929b39f9bb108e5367e3228f
   BoringSSL-GRPC: 8edf627ee524575e2f8d19d56f068b448eea3879
@@ -411,9 +422,10 @@ SPEC CHECKSUMS:
   Pageboy: cf121b9dd48c63f3f281b2a9ec93d02e0f23879b
   PromisesObjC: 8c196f5a328c2cba3e74624585467a557dcb482f
   Protobuf: 3dac39b34a08151c6d949560efe3f86134a3f748
+  ReverseExtension: e658309467ab80870648e32069d14b2ff4a09863
   SkeletonView: 14fbe9702c7fb5c5f011b44ac3ae99fc73155726
   Tabman: 085d89c65be9e883629bdaf5b1453a6397e57846
 
-PODFILE CHECKSUM: 5823fa901fd0d3af15a9ec7df9de4495ff2c84c1
+PODFILE CHECKSUM: 0fd85ac2c64a4254a67738d3692ce990d915ae96
 
 COCOAPODS: 1.9.3
